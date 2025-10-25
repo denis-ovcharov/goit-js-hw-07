@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+}
+body {
+  margin: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+}
+.gallery {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding: 100px 156px;
+  justify-content: center;
+  align-items: center;
+}
+#categories {
+list-style-type: none;
+display: flex;
+flex-direction: column;
+gap: 24px;
+max-width: 440px;
+padding: 24px;
+}
+.item {
+max-width: 392px;
+padding: 16px;
+display: flex;
+flex-direction: column;
+gap: 16px;
+}
+.item-title {
+font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33333;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  margin: 0;
+  
+}
+.item-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-left: 0;
+  
+}
+.item-list li {
+font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  padding: 8px 16px
+}
+.back-link{
+  text-decoration: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  background-color: #4e75ff;
+  color: #fff;
+}
+.change-color {
+  border-radius: 8px;
+  padding: 8px 16px;
+  background-color: #4e75ff;
+  color:#fff;
+  border: none;
+  cursor: pointer;
+}
+
+.input-task-3,
+input[type="email"],
+input[type="password"]
+{
+  outline: none;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  padding-left: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+.input-task-3::placeholder{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33333;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+.login-form {
+display: flex;
+flex-direction: column;
+gap: 8px;
+max-width: 408px;
+padding: 24px;
+}
+.btn-login {
+  margin-top: 8px;
+  border-radius: 8px;
+  padding: 8px 16px;
+  border: none;
+  background-color: #4e75ff;
+  color: #fff;
+  max-width: 86px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+.tasks-list li a {
+font-size: 18px;
+background-color: #4e75ff;
+color: #fff;
+padding: 8px 16px;
+border-radius: 8px;
+text-decoration: none;
+}
+.tasks-list {
+display: flex;
+flex-direction: column;
+gap: 18px;
+}
